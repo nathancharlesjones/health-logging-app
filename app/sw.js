@@ -1,10 +1,10 @@
 // sw.js — offline cache for the app's own files. It never sees your data
 // (that lives in IndexedDB) and never fetches anything from other sites.
 // Bump VERSION whenever you change any file, so phones pick up the update.
-const VERSION = 'turtle-log-v2';
+const VERSION = 'turtle-log-v3';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'logic.js', 'db.js', 'backup.js', 'zip.js', 'manifest.webmanifest',
-  'icons/icon-192.png', 'icons/icon-512.png',
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-192.png', 'icons/maskable-512.png',
   'fonts/ibm-plex-mono-latin-400-normal.woff2', 'fonts/ibm-plex-mono-latin-600-normal.woff2',
   'fonts/ibm-plex-serif-latin-400-normal.woff2', 'fonts/ibm-plex-serif-latin-600-normal.woff2',
 ];
