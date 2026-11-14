@@ -1,0 +1,17 @@
+{
+  "name": "turtle-log",
+  "private": true,
+  "type": "module",
+  "description": "Two-week health & habits logger (PWA). The app itself in app/ has no dependencies; Playwright is for tests only.",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "simulate": "node tools/simulate.mjs simulated-study.zip",
+    "test:unit": "node tools/run-unit.mjs",
+    "test:unit:quick": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
